@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hoja de Vida</title>
+
+    <style>
+
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        table {
+            width: 100%;
+            height: 100vh;
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        /* COLUMNA 1 */
+        .izquierda {
+            width: 40%;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        /* COLUMNA 2 */
+        .derecha {
+            width: 60%;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        /* FOTO */
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 2px solid black;
+            object-fit: cover;
+        }
+
+        /* SECCIONES */
+        .seccion {
+            text-align: center;
+        }
+
+        /* LISTAS */
+        .seccion ul {
+            display: inline-block;
+            text-align: left;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <table border="1">
+
+        <tr>
+
+            <!-- COLUMNA IZQUIERDA -->
+
+            <td class="izquierda">
+
+                <img src="./IMAGEN/Deimar.png" alt="Foto de Deimar">
+
+                <h1>Deimar Alejandro</h1>
+
+                <h2>Manrique Arismendi</h2>
+
+                <h3>Datos personales</h3>
+
+                <p>Correo: arismendideimar@gmail.com</p>
+
+                <p>Teléfono: 3005583471</p>
+
+                <p>Ciudad: Colombia</p>
+
+            </td>
+
+
+            <!-- COLUMNA DERECHA -->
+
+            <td class="derecha">
+
+                <div class="seccion">
+
+                    <h2>Hobbies</h2>
+
+                    <ul>
+                        <li>Escuchar música</li>
+                        <li>Jugar videojuegos</li>
+                        <li>Aprender más de programación</li>
+                        <li>Compartir con mi familia</li>
+                    </ul>
+
+                </div>
+
+
+                <div class="seccion">
+
+                    <h2>Lenguajes</h2>
+
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>PHP</li>
+                    </ul>
+
+                </div>
+
+
+                <div class="seccion">
+
+                    <h2>Conclusión de ADSO</h2>
+
+                    <p>
+                        ADSO me permite aprender sobre programación,
+                        desarrollo de software y bases de datos.
+                        Mi objetivo es seguir aprendiendo y llegar
+                        a ser un buen profesional.
+                    </p>
+
+                </div>
+
+            </td>
+
+        </tr>
+
+    </table>
+
+</body>
+
+</html>
